@@ -11,7 +11,7 @@ const getAllCategory = async () => {
   category__arr.map(card => {
     let block = document.createElement('div')
     block.innerHTML = `
-                   <a href='../Catalogs/catalogs.html'><div class="card" value=${card.strCategory}>
+                   <a href='./Catalogs/catalogs.html'><div class="card" value=${card.strCategory}>
                       <img src=${card.strCategoryThumb} alt="Avatar" style="width:100%"/>
                       <div class="container">
                         <h4><b>${card.strCategory}</b></h4>
