@@ -1,0 +1,77 @@
+.aboutMealDescription{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    background: rgb(243, 240, 240);
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 40px;
+  }
+  .aboutMealDescriptionLeft img {
+      width: 80%;
+  
+  }
+  .aboutMealDescriptionLeft{
+      width: 40%;
+      text-align: center;
+  
+  }
+  
+  .abouteMealDescr{
+      width: 25%;
+      
+  }
+  .aboutMealDescriptionIngridients{
+    
+    width: 20%;
+  
+  }
+  
+  .ingridientElement div{
+    border-bottom: 2px solid rgb(100, 85, 100);
+  
+  }
+  
+  
+  @media screen and (max-width:1200px){
+    .aboutMealDescriptionIngridients{
+      display: flex;
+      width: 80%;
+    
+    }
+    .ingridientTitle{
+      width: 30%;
+    }
+    .ingridientElement{
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .ingridientElement div{
+        border-bottom: 2px solid rgb(100, 85, 100);
+        margin: 6px;
+        padding-right: 3px;
+    }
+    .aboutMealDescription{
+      flex-direction: column;
+      align-items: center;
+    }
+    .aboutMealDescriptionLeft{
+      width: 80%;
+      margin-bottom: 20px;
+    }
+    .abouteMealDescr{
+      width: 80%;
+      margin-top: 30px;
+    }
+    .aboutMealDescriptionLeft img{
+      width: 70%;
+    }
+  }
+  @media screen and (max-width:600px){
+    .ingridientElement{
+      width: 100%;
+    }
+    .aboutMealDescriptionIngridients{
+  flex-direction: column;
+    }
+  }
